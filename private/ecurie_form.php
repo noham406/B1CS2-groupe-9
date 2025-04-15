@@ -8,7 +8,8 @@ if(isset($_POST['nom']) && !empty($_POST['nom'])){
     $sql = "INSERT INTO ecuries(nom) VALUES ('$nom')";
 
     if ($connexion->query($sql)){
-        echo "Réussi";
-        echo "<a href='ecuries.php'>Ecuries</a>";
+        header('Location:affichage_ecuries.php');
     }
+} else {
+    header('Location:affichage_ecuries.php');
 }
