@@ -17,14 +17,10 @@ if (
             $sql = "INSERT INTO resultats (grand_prix_id, pilote_id, position, tour_le_plus_rapide, points) 
                     VALUES ('$grand_prix_id', '$pilote_id', '$position', '$tour_le_plus_rapide', '$points')";
 
-            if ($connexion->query($sql)) {
-                echo "Ligne $i insérée<br>";
-            } else {
-                echo "Ligne $i non insérée<br>";
-            }
+            $connexion->query($sql);
         }
-    }
-    echo '<strong>Enregistrement terminé</strong><br><a href="resultats.php">Enregistrer encore</a>';
+    } 
+        header('Location:affichage_res_gp.php');
 } else {
-    echo '<strong>Formulaire incomplet</strong>';
+    header('Location:affichage_res_gp.php');
 }

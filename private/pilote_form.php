@@ -13,9 +13,8 @@ if(
     $sql = "INSERT INTO pilotes (nom, ecurie_id) VALUES ('$nom', '$ecurie')";
 
     if($connexion->query($sql)){
-        echo "Réussi";
-        echo "<a href='pilotes.php'>Pilotes</a>";
+        header('Location:affichage_pilotes.php');
     }
 } else {
-    echo "Miskin";
+    header('Location:affichage_pilotes.php');
 }

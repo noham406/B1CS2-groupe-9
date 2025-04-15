@@ -17,15 +17,10 @@ if (
             $sql = "INSERT INTO resultats_sprint (grand_prix_id, pilote_id, position, points) 
                     VALUES ('$grand_prix_id', '$pilote_id', '$position', '$points')";
 
-            if ($connexion->query($sql)) {
-                echo "Ligne $i insérée<br>";
-            } else {
-                echo "Ligne $i non insérée<br>";
-            }
+            $connexion->query($sql);
         }
     }
-
-    echo '<strong>Enregistrement terminé.</strong>';
+    header('Location:affichage_res_sprint.php');
 } else {
-    echo '<strong>Formulaire incomplet.</strong>';
+    header('Location:affichage_res_sprint.php');
 }

@@ -59,18 +59,6 @@ $gp_id = isset($_GET['gp']) ? (int) $_GET['gp'] : 1;
                         ?>
                     </td>
                     <td><?= $row['tour_le_plus_rapide'] ? 'Oui' : 'Non' ?></td>
-                    <td class="action">
-                        <form action="modifier.php" method="post">
-                            <input type="hidden" name="id" value="<?= $row['id'] ?>">
-                            <input type="image" src="../images/modifier.png" alt="">
-                        </form>
-                    </td>
-                    <td class="action">
-                        <form action="supprimer.php" method="post" onsubmit="return confirmSuppression()">
-                            <input type="hidden" name="id" value="<?= $row['id'] ?>">
-                            <input type="image" src="../images/supprimer.png" alt="">
-                        </form>
-                    </td>
                 </tr>
             <?php endforeach ?>
         </tbody>
