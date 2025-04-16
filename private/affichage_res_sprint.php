@@ -35,6 +35,12 @@ $gp_id = isset($_GET['gp']) ? (int) $_GET['gp'] : 5;
                         <input type="image" src="../images/modifier.png" alt="">
                     </form>
                 </th>
+                <th class="action">
+                    <form action="supprimer_res_sprint.php" method="post" onsubmit="return confirmSuppression()">
+                        <input type="hidden" name="id" value="<?= $gp_id ?>">
+                        <input type="image" src="../images/supprimer.png" alt="">
+                    </form>
+                </th>
             </tr>
         </thead>
         <tbody>
