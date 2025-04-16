@@ -21,7 +21,7 @@ $gp_id = isset($_GET['gp']) ? (int) $_GET['gp'] : 1;
 </form>
 
 <main>
-    <table border="1" class="affichage">
+    <table class="affichage">
         <caption>Résultats pour le GP <?= $gp_id ?></caption>
         <thead>
             <tr>
@@ -30,6 +30,18 @@ $gp_id = isset($_GET['gp']) ? (int) $_GET['gp'] : 1;
                 <th>Écurie</th>
                 <th>Points</th>
                 <th>Tour le + rapide</th>
+                <th class="action">
+                    <form action="modifier_res_gp.php" method="post">
+                        <input type="hidden" name="id" value="<?= $gp_id ?>">
+                        <input type="image" src="../images/modifier.png" alt="">
+                    </form>
+                </th>
+                <th class="action">
+                    <form action="supprimer_res_gp.php" method="post" onsubmit="return confirmSuppression()">
+                        <input type="hidden" name="id" value="<?= $gp_id ?>">
+                        <input type="image" src="../images/supprimer.png" alt="">
+                    </form>
+                </th>
             </tr>
         </thead>
         <tbody>
