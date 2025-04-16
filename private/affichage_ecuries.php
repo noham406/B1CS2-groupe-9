@@ -4,7 +4,7 @@ $titre = 'Affichage des Ecuries';
 include '../includes/top_form.php';
 ?>
 <main>
-    <table summary="" border="1" class="affichage">
+    <table summary="" class="affichage">
         <caption>Liste des Ecuries</caption>
         <thead>
             <tr>

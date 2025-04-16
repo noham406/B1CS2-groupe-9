@@ -4,7 +4,7 @@ $titre = 'Affichage des Pilotes';
 include '../includes/top_form.php';
 ?>
 <main>
-    <table summary="" border="1" class="affichage">
+    <table summary="" class="affichage">
         <caption>Liste des Pilotes</caption>
         <thead>
             <tr>
