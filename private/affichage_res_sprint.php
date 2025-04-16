@@ -21,14 +21,20 @@ $gp_id = isset($_GET['gp']) ? (int) $_GET['gp'] : 5;
 </form>
 
 <main>
-    <table border="1" class="affichage">
-        <caption>Résultats pour le Sprint <?= $gp_id ?></caption>
+    <table class="affichage">
+        <caption>Résultats pour le Sprint du GP <?= $gp_id ?></caption>
         <thead>
             <tr>
                 <th>Position</th>
                 <th>Pilote</th>
                 <th>Écurie</th>
                 <th>Points</th>
+                <th class="action">
+                    <form action="modifier_res_sprint.php" method="post">
+                        <input type="hidden" name="id" value="<?= $gp_id ?>">
+                        <input type="image" src="../images/modifier.png" alt="">
+                    </form>
+                </th>
             </tr>
         </thead>
         <tbody>
