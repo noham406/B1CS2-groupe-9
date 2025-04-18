@@ -1,11 +1,12 @@
+
 <?php include 'includes/db.php'; 
-$gpid = 5
+$gpid = 6
 ?>
 
 <main>
 <div class="left">
     <div class="track">
-        <img src="images/tracks/shangai.jpg" alt="china's track">
+        <img src="images/tracks/miami.jpg" alt="Miami's track">
     </div>
     <div class="teams_results">
         <table border="1">
@@ -48,7 +49,7 @@ $gpid = 5
     </div>
 </div>
 
-<!-- Résultats par pilote - chine -->
+<!-- Résultats par pilote - Miami -->
 <div class="drivers_results">
     <table border="1">
         <thead>
