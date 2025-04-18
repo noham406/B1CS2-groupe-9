@@ -50,7 +50,9 @@ $gpid = 23
 
 <!-- Résultats par pilote - qatar-->
 <div class="drivers_results">
-    <table border="1">
+<button id="bouton1">resultats</button>
+<button id="bouton2">resultats sprint</button>
+    <table border="1" id="tableau1">
         <thead>
             <tr>
                 <th>Position</th>
@@ -108,7 +110,7 @@ $gpid = 23
         <?php endif; ?>
     </div>
 
-    <table border="1">
+    <table border="1" id="tableau2">
         <thead>
             <tr>
                 <th>Position</th>
