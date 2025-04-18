@@ -32,6 +32,11 @@ header img {
     width: 100%;
 }
 
+#profil {
+    width: 2%;
+    margin: 0;
+}
+
 nav {
     width: 15%;
     background-color: lightblue;
@@ -52,6 +57,24 @@ nav a {
     justify-content: center;
     margin: 0.5% auto;
     font-size: 1.2em;
+}
+
+.connexion {
+    width: 40%;
+    margin: 2% 30%;
+}
+
+.connexion input {
+    width: 100%;
+    display: block;
+    line-height: 3em;
+    margin: 3%;
+}
+
+.connexion [type="submit"] {
+    width: 40%;
+    margin: 0 30%;
+    line-height: 2em;
 }
 
 main {
@@ -150,6 +173,28 @@ article p {
 div table {
     width: 80%;
     margin: 2% auto;
+}
+
+.fastest_lap {
+    width: 90%;
+    margin: 5% auto;
+    padding: 1em;
+    background: linear-gradient(135deg, #cceeff, #e0f7ff);
+    border: 2px solid #a0d8ef;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 128, 255, 0.2);
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    color: #003366;
+}
+
+.fastest_lap p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
 }
 
 aside {
