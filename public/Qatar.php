@@ -8,6 +8,7 @@ $gpid = 23
         <img src="images/tracks/losail.jpg" alt="Qatar's track">
     </div>
     <div class="teams_results">
+        <h2>Resultats des écuries</h2>
         <table border="1">
             <thead>
                 <tr>
@@ -50,6 +51,7 @@ $gpid = 23
 
 <!-- Résultats par pilote - qatar-->
 <div class="drivers_results">
+    <h2>Resultats des pilotes</h2>
 <button id="bouton1">resultats</button>
 <button id="bouton2">resultats sprint</button>
     <table border="1" id="tableau1">
