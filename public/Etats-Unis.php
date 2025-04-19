@@ -8,6 +8,7 @@ $gpid = 19
         <img src="images/tracks/austin.jpg" alt="Etas-Unis's track">
     </div>
     <div class="teams_results">
+        <h2>Resultats des écuries</h2>
         <table border="1">
             <thead>
                 <tr>
@@ -50,6 +51,7 @@ $gpid = 19
 
 <!-- Résultats par pilote - etats-unis -->
 <div class="drivers_results">
+    <h2>Resultats des pilotes</h2>
 <button id="bouton1">resultats</button>
 <button id="bouton2">resultats sprint</button>
     <table border="1" id="tableau1">
