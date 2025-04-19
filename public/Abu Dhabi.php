@@ -1,4 +1,4 @@
-<<?php include 'includes/db.php'; 
+<?php include 'includes/db.php'; 
 $gpid = 24
 
 ?>
@@ -9,6 +9,7 @@ $gpid = 24
         <img src="images/tracks/yas_marina.jpg" alt="Abu Dhabi's track">
     </div>
     <div class="teams_results">
+        <h2>Résultats des écuries</h2>
         <table border="1">
             <thead>
                 <tr>
@@ -47,6 +48,7 @@ $gpid = 24
 
 <!-- Résultats par pilote - ABU Dhabi -->
 <div class="drivers_results">
+    <h2>Résultats des pilotes</h2>
     <table border="1">
         <thead>
             <tr>
