@@ -9,6 +9,7 @@ $gpid = 7
         <img src="images/tracks/emilie_romagne.jpg" alt="emilie romagne's track">
     </div>
     <div class="teams_results">
+        <h2>Resultats des écuries</h2>
         <table border="1">
             <thead>
                 <tr>
@@ -47,6 +48,7 @@ $gpid = 7
 
 <!-- Résultats par pilote - emilie romagne -->
 <div class="drivers_results">
+    <h2>Resultats des pilotes</h2>
     <table border="1">
         <thead>
             <tr>
