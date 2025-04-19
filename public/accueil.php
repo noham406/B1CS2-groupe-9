@@ -1,4 +1,5 @@
 <main>
+    <h2>Moments forts de la saison</h2>
     <article>
         <img src="images/news1.jpg" alt="Lando première win">
         <h3>Première victoire pour Lando Norris</h3>
