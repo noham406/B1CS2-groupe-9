@@ -1,0 +1,137 @@
+@media screen and (max-width: 600px){
+    header h1 {
+        margin-left: 15%;
+    }
+    
+    #burger {
+        display: block;
+        width: 10%;
+        cursor: pointer;
+    }
+
+    #profil {
+        width: 20%;
+    }
+
+    nav{
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 2.8em;
+        z-index: 1;
+        height: 50vh;
+    }
+
+    nav a{
+        display: block;
+        width: 98%;
+        margin: 0.3em auto;
+        text-align: center;
+        line-height: 2em;
+        border-bottom: 1px solid white;
+        border: none;
+    }
+
+    main {
+        width: 100%;
+        height: auto;
+    }
+
+    .connexion {
+        width: 100%;
+        margin: 0;
+    }
+
+    .connexion input {
+        width: 94%;
+    }
+
+    article {
+        width: 92%;
+        height: 35vh;
+    }
+
+    .left {
+        width: 100%;
+        height: auto;
+    }
+
+    .track {
+        width: 100%;
+        height: auto;
+    }
+
+    .track img {
+        height: auto;
+        width: 100%;
+    }
+
+    .teams_results {
+        height: auto;
+    }
+
+    .drivers_results {
+        width: 100%;
+        height: auto;
+    }
+
+    #dessus img {
+        height: auto;
+        width: 100%;
+        left: 0;
+        top: 4em;
+    }
+
+    #dessus img#close{
+        top: 1em;
+        right: 12%;
+        height: 2em;
+        width: 2em;
+    }
+
+    aside {
+        width: 100%;
+        margin-top: 5%;
+        height: auto;
+    }
+
+    aside table {
+        width: 100%;
+    }
+
+    .enregistrer, .consulter {
+        width: 90%;
+        margin: 1% 4%;
+        background-color: lightblue;
+        border-radius: 20px;
+        padding: 1%;
+        text-align: center;
+    }
+
+    .affichage {
+        width: 90%;
+    }
+
+    main {
+        padding: 0;
+        margin: 0;
+    }
+
+    #header_admin h1 {
+        margin: 0;
+    }
+
+    #nav_admin {
+        display: flex;
+        width: 98%;
+        height: auto;
+        position: static;
+    }
+
+    #nav_admin a {
+        all: unset; /* réinitialise toutes les propriétés */
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+}

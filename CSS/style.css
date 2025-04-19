@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+header a {
+    width: 18%;
+}
+
+header img {
+    width: 100%;
+}
+
+#burger{
+    display: none;
+    position: absolute;
+    top: 0.3em;
+    left: 0.5em;
+}
+
+#profil {
+    width: 2%;
+    margin: 0;
+}
+
+nav {
+    width: 15%;
+    background-color: lightblue;
+    height: 85.7vh;
+    overflow-y: scroll;
+}
+
+nav a {
+    display: block;
+    width: 90%;
+    border: 1px solid black;
+    background-color: aqua;
+    height: 2em;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5% auto;
+    font-size: 1.2em;
+}
+
+main {
+    width: 70%;
+    background-color: lightgreen;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    overflow: scroll;
+    height: 85.7vh;
+}
+
+main h2 {
+    height: 2em;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.connexion {
+    width: 40%;
+    margin: 2% 30%;
+}
+
+.connexion input {
+    width: 100%;
+    display: block;
+    line-height: 3em;
+    margin: 3%;
+}
+
+.connexion [type="submit"] {
+    width: 40%;
+    margin: 0 30%;
+    line-height: 2em;
+}
+
+article {
+    width: 45%;
+    height: 37.5vh;
+    border: 1px solid black;
+    margin: 0.5% auto;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+article img {
+    width: 90%;
+    margin: 1% 5%;
+}
+
+article h3 {
+    text-align: center;
+}   
+
+article p {
+    width: 90%;
+    margin: 1% 5%;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.track {
+    width: 100%;
+    height: 55%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.track img {
+    height: 80%;
+    margin: 10% auto;
+}
+
+.teams_results {
+    width: 100%;
+    height: 45%;
+    background-color: lightskyblue;
+    overflow: scroll;
+}
+
+.drivers_results {
+    width: 50%;
+    height: 100%;
+    background-color: lightseagreen;
+    overflow: scroll;
+}
+
+div table {
+    width: 80%;
+    margin: 2% auto;
+}
+
+.fastest_lap {
+    width: 90%;
+    margin: 5% auto;
+    padding: 1em;
+    background: linear-gradient(135deg, #cceeff, #e0f7ff);
+    border: 2px solid #a0d8ef;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 128, 255, 0.2);
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    color: #003366;
+}
+
+.fastest_lap p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+
+#dessus {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255,255,255,.8);
+}
+#dessus img{
+    height: 70%;
+    position: absolute;
+    top: 5%;
+    left: 22.5%;
+    width: 55%;
+}
+#dessus img#close{
+    left: 90%;
+    height: 6em;
+    width: 6em;
+}
+#dessus p{
+    position: absolute;
+    bottom: 4%;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+aside {
+    width: 15%;
+    background-color: lightgoldenrodyellow;
+    height: 85.7vh;
+    overflow: scroll;
+}
+
+aside h2, aside p {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background-color: lightpink;
+    max-height: 3em;
+    padding: 1%;
+    text-align: center;
+}
