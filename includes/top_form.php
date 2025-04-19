@@ -17,9 +17,10 @@ define('BASE', '/projet_s2/');
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?= BASE ?>css/style_admin.css">
+    <link rel="stylesheet" href="<?= BASE ?>css/mobile.css">
 </head>
 <body>
-    <header>
+    <header id="header_admin">
         <h1>
             <?php
                 if(isset($titre)){
@@ -30,7 +31,7 @@ define('BASE', '/projet_s2/');
             ?>
         </h1>
     </header>
-    <nav>
+    <nav id="nav_admin">
         <a href="<?= BASE ?>">Accueil</a>
         <a href="<?= BASE ?>private/admin.php">Accueil Admin</a>
     </nav>
