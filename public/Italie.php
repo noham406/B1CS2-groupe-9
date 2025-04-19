@@ -9,6 +9,7 @@ $gpid = 16
         <img src="images/tracks/monza.jpg" alt="Italie's track">
     </div>
     <div class="teams_results">
+        <h2>Resultats des écuries</h2>
         <table border="1">
             <thead>
                 <tr>
@@ -47,6 +48,7 @@ $gpid = 16
 
 <!-- Résultats par pilote - Italie -->
 <div class="drivers_results">
+    <h2>Resultats des pilotes</h2>
     <table border="1">
         <thead>
             <tr>
